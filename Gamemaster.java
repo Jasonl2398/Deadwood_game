@@ -2,36 +2,11 @@ import java.util.Random;
 
 public class Gamemaster {
 
-    private Player[] playerList;
-    private int dayCounter;
-    private Board board;
     private Random gameDie;
 
-    public Gamemaster(Player[] playerList) {
-        this.playerList = playerList;
+    public Gamemaster() {
         gameDie = new Random();
     }
-
-    public Player[] getPlayerList() {
-        return playerList;
-    }
-
-    public int getDayCounter() {
-        return dayCounter;
-    }
-
-    public void incrementDayCounter() {
-        this.dayCounter++;
-    }
-
-    public Board getBoard() {
-        return board;
-    }
-
-    public void setBoard(Board board) {
-        this.board = board;
-    }
-
     private void nextPlayerTurn(Player[] playerList) {
 
     }

@@ -11,7 +11,7 @@ public class Player {
     private String playerName;
 
     public Player() {
-
+        
     }
 
     public int[] getCurrentTile() {
